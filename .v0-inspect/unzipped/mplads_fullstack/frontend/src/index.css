@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #F2F0EA;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #14213D;
+}
+
+::selection {
+  background-color: #F7E7C6;
+}
+
+.stamp {
+  border: 2.5px solid currentColor;
+  border-radius: 9999px;
+  transform: rotate(-4deg);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.ledger-row {
+  border-bottom: 1px solid #DDD6C6;
+}
+.ledger-row:hover {
+  background-color: #FFFFFF;
+}
